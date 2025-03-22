@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled_in_scale', 'scratches']
+
+roboflow:
+  workspace: kunal-gaikwad
+  project: augmented-neu-dataset
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kunal-gaikwad/augmented-neu-dataset/dataset/3
